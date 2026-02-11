@@ -39,7 +39,7 @@ public class Ruler {
      * @param tickLength
      */
     public static void drawOneTick(int tickLength) {
-        drawOneTick(tickLength, -1);  // label is always input + 1
+        drawOneTick(tickLength, -1);  // initial drawing has no label as label is < 0
 
     }
 
